@@ -1,22 +1,19 @@
 # FTC Java Quest
 
-A fun TypeScript + React quiz for FTC students learning early Java topics.
+A Vite + React + TypeScript quiz app for FTC Java basics.
 
-## Run locally
+## Local run
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Deploy to Vercel
+## Vercel settings
 
-1. Upload this whole folder to a GitHub repository.
-2. In Vercel, choose **Add New → Project**.
-3. Import the GitHub repository.
-4. Use these settings:
-   - Framework Preset: Vite
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-   - Install Command: `npm install`
-5. Click **Deploy**.
+- Framework Preset: Vite
+- Install Command: npm install
+- Build Command: npm run build
+- Output Directory: dist
+
+If Vercel cached an older failed install, use **Redeploy > Clear Build Cache and Redeploy**.
